@@ -1,4 +1,4 @@
-describe("Checks countAllFromTown function ", function(){
+describe("Tests countAllFromTown function ", function(){
 
   it("should return 2", function(){
     assert.deepEqual(countAllFromTown("CL799, CH98677, CL86858, FC7575688","CL"), 2)
